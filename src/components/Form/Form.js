@@ -70,7 +70,7 @@ function Form() {
           <TextInput
             style={style.input}
             onChangeText={setHeight}
-            placeholder="Ex.: 1.75"
+            placeholder="Ex.: 1.75 (m)"
             keyboardType="numeric"
           ></TextInput>
           <Text style={style.formLabel}>Weight</Text>
@@ -78,7 +78,7 @@ function Form() {
           <TextInput
             style={style.input}
             onChangeText={setWeight}
-            placeholder="Ex.: 76.5"
+            placeholder="Ex.: 76.5 (kg)"
             keyboardType="numeric"
           ></TextInput>
           <TouchableOpacity
